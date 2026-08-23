@@ -11,6 +11,7 @@ import {
 } from "./config";
 import { getDay } from "./days";
 import type { VizProps } from "./days/types";
+import { initLib } from "./libProvider";
 
 function PartSection<Extra>({
   headingId,
@@ -62,7 +63,10 @@ export default function App() {
   const [ready, setReady] = useState(false);
 
   useEffect(() => {
-    init().then(() => setReady(true));
+    init().then((initialized) => {
+      initLib(initialized);
+      setReady(true);
+    });
   }, []);
 
   const [selectedDay, setSelectedDay] = useState(() => dayFromHash());
