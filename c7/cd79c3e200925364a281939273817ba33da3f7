@@ -1,0 +1,21 @@
+web/vite.config.ts
+  s_9804f6390528ff::t_9e810e3a9eab50 7
+.github/workflows/deploy.yml
+  s_9804f6390528ff::t_3c94b46da54726 1-61
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "c7cd79c3e200925364a281939273817ba33da3f7",
+  "prompts": {},
+  "sessions": {
+    "s_9804f6390528ff": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd0555e12ffe1dnURic23hYpm0",
+        "model": "kimi-k2.5"
+      },
+      "human_author": "Kuba Jaroszewski <jakub.jaroszewski@gmail.com>"
+    }
+  }
+}
