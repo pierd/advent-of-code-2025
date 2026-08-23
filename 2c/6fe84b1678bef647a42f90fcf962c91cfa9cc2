@@ -1,0 +1,22 @@
+Cargo.toml
+  s_57f9d67962d44b::t_92edc8abecfcd1 1-3
+  s_57f9d67962d44b::t_023e108a7f2fff 4-7
+Cargo.lock
+  s_57f9d67962d44b::t_f6a9e19b1a0091 1-226
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "2c6fe84b1678bef647a42f90fcf962c91cfa9cc2",
+  "prompts": {},
+  "sessions": {
+    "s_57f9d67962d44b": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd0580cc5ffermJf393RpWfhOl",
+        "model": "kimi-k2.5"
+      },
+      "human_author": "Kuba Jaroszewski <jakub.jaroszewski@gmail.com>"
+    }
+  }
+}
