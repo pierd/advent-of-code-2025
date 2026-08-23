@@ -1,0 +1,14 @@
+{
+  "name": "advent-of-code-2025",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm build:wasm && concurrently \"cd crate && cargo watch -w src --postpone -s 'wasm-pack build --target web --out-dir pkg'\" \"pnpm --filter web dev\" --names wasm,vite --prefix-colors yellow,green",
+    "build:wasm": "wasm-pack build crate --target web --out-dir pkg",
+    "build": "pnpm build:wasm && pnpm --filter web build",
+    "preview": "pnpm --filter web preview",
+    "test:crate": "cargo test --manifest-path crate/Cargo.toml"
+  },
+  "devDependencies": {
+    "concurrently": "^10.0.5"
+  }
+}

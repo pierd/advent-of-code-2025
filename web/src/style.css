@@ -1,0 +1,205 @@
+:root {
+  --text: #cccccc;
+  --text-h: #ffffff;
+  --bg: #0f0f23;
+  --sidebar-bg: #0f0f23;
+  --border: #333340;
+  --code-bg: #10101a;
+  --accent: #009900;
+  --accent-hover: #99ff99;
+  --accent-fg: #0f0f23;
+  --viz-bg: #10101a;
+  --star: #ffff66;
+  --mono: "Source Code Pro", ui-monospace, Consolas, monospace;
+
+  font: 14pt/145% var(--mono);
+  color-scheme: dark;
+  color: var(--text);
+  background: var(--bg);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-weight: normal;
+  color: var(--text-h);
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  font-size: 1.35rem;
+  margin: 0 0 1rem;
+  text-shadow: 0 0 2px #00cc00, 0 0 5px #00cc00;
+  color: #00cc00;
+}
+
+h2 {
+  font-size: 1.05rem;
+  margin: 0 0 0.75rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.7rem;
+  margin: 0 0 0.35rem;
+  opacity: 0.5;
+}
+
+a {
+  text-decoration: none;
+  color: var(--accent);
+}
+
+a:hover,
+a:focus {
+  color: var(--accent-hover);
+}
+
+.shell {
+  display: grid;
+  grid-template-columns: 14rem minmax(0, 1fr);
+  min-height: 100vh;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow: auto;
+  padding: 1.25rem 0.85rem;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--border);
+}
+
+.days {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.day {
+  appearance: none;
+  width: 100%;
+  text-align: left;
+  font: inherit;
+  color: var(--text);
+  background: transparent;
+  border: 1px solid transparent;
+  border-radius: 6px;
+  padding: 0.4rem 0.65rem;
+  cursor: pointer;
+}
+
+.day:hover {
+  border-color: var(--border);
+  color: var(--text-h);
+}
+
+.day.is-selected {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--accent-fg);
+}
+
+.puzzle {
+  padding: 1.75rem 1.75rem 3rem;
+  max-width: 52rem;
+}
+
+.puzzle-link {
+  display: inline-block;
+  color: var(--accent);
+  word-break: break-all;
+  margin-bottom: 1.5rem;
+}
+
+.puzzle-link:hover,
+.puzzle-link:focus {
+  color: var(--accent-hover);
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 0.4rem;
+  color: var(--text-h);
+}
+
+textarea {
+  width: 100%;
+  font: inherit;
+  font-family: var(--mono);
+  padding: 0.75rem;
+  border: 1px solid #666666;
+  border-radius: 8px;
+  background: var(--code-bg);
+  color: var(--text-h);
+  resize: vertical;
+  margin-bottom: 2rem;
+}
+
+.part {
+  margin-bottom: 2rem;
+}
+
+.viz {
+  min-height: 12rem;
+  border: 1px dashed var(--border);
+  border-radius: 8px;
+  background: var(--viz-bg);
+  display: grid;
+  place-items: center;
+  margin-bottom: 0.85rem;
+  max-height: 30vh;
+  overflow: scroll;
+}
+
+.viz-placeholder {
+  margin: 0;
+  color: var(--text);
+}
+
+.answer {
+  margin: 0;
+}
+
+.answer code {
+  color: var(--star);
+  text-shadow: 0 0 5px var(--star);
+}
+
+code {
+  font-family: var(--mono);
+  color: var(--text-h);
+}
+
+@media (max-width: 800px) {
+  .shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    height: auto;
+    border-right: 0;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .days {
+    flex-direction: row;
+    overflow-x: auto;
+  }
+
+  .day {
+    width: auto;
+    white-space: nowrap;
+  }
+}
