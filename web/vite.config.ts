@@ -4,6 +4,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
   plugins: [react()],
+  base: '/advent-of-code-2025/',
   resolve: {
     alias: {
       aoc: fileURLToPath(new URL('../crate/pkg', import.meta.url)),
