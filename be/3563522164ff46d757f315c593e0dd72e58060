@@ -1,0 +1,107 @@
+web/public/favicon.svg
+  s_579eb8fcce364a::t_a55a870e0fd4bd 1
+web/src/days/index.ts
+  s_579eb8fcce364a::t_cf3e3e0cc39009 1-16
+  s_579eb8fcce364a::t_86ad2a7375c620 17-19
+web/src/App.tsx
+  s_888310cd963097::t_47a8f9cda3fc18 3
+  s_888310cd963097::t_e3208a1aadb848 91-92,96
+  s_adfccd0b8a7b97::t_4bb0c0c6475167 1-2,4-90,93-95,97-161
+  s_adfccd0b8a7b97::t_c71745c52f5fc6 162-164
+web/src/config.ts
+  s_579eb8fcce364a::t_1ae8a1ec964040 1-30
+  s_579eb8fcce364a::t_6472b2ecf347b2 31-33
+web/src/main.tsx
+  s_adfccd0b8a7b97::t_a2b18749c03fb0 1-10
+web/tsconfig.json
+  s_579eb8fcce364a::t_1f704d703c36e9 22-26
+  s_579eb8fcce364a::t_a55a870e0fd4bd 1-4,7-21,27-29
+  s_579eb8fcce364a::t_ab8cc507657370 5-6
+web/.gitignore
+  s_579eb8fcce364a::t_a55a870e0fd4bd 1-24
+crate/Cargo.toml
+  s_579eb8fcce364a::t_d1648f02e2c811 1-14
+pnpm-workspace.yaml
+  s_579eb8fcce364a::t_4695c65c93b6d1 1-2
+package.json
+  s_adfccd0b8a7b97::t_cd3094deced2cc 10-12
+  s_579eb8fcce364a::t_bfd9369c2d0808 1-4,6-9,13
+  s_adfccd0b8a7b97::t_4ec97f550c24d3 5,14
+web/package.json
+  s_579eb8fcce364a::t_a55a870e0fd4bd 1-10,15,19-22
+  s_adfccd0b8a7b97::t_736736b100dd6f 11-14,16-17
+  s_adfccd0b8a7b97::t_60db3ceca2c7d3 18
+.gitignore
+  s_579eb8fcce364a::t_c550c17531959f 1-28
+web/src/days/types.ts
+  s_579eb8fcce364a::t_d011a251551bd8 1-18
+  s_579eb8fcce364a::t_de111b28affcc1 19-21
+web/src/assets/vite.svg
+  s_579eb8fcce364a::t_a55a870e0fd4bd 1
+crate/rust-toolchain.toml
+  s_579eb8fcce364a::t_f627f3fa90167c 1-3
+crate/src/lib.rs
+  s_888310cd963097::t_ac062641fedeff 8,15-20
+  s_888310cd963097::t_cd4c0820a63f27 36
+  s_888310cd963097::t_fc32dfe8a1bbb1 32-35,37
+  s_579eb8fcce364a::t_ff5138184ad1e6 1-7,9-14,21-31,38
+web/public/icons.svg
+  s_579eb8fcce364a::t_a55a870e0fd4bd 1-24
+web/index.html
+  s_adfccd0b8a7b97::t_4ba57bdf32fde0 5
+  s_579eb8fcce364a::t_c898a935227076 7
+  s_579eb8fcce364a::t_a55a870e0fd4bd 1-4,6,8-10,12-13
+  s_579eb8fcce364a::t_fbf060afc298a6 11
+web/src/style.css
+  s_579eb8fcce364a::t_15a06274361768 21-24,29-30,32-33,37-38,41-44,51-52,59-60,66-114,117-121,138-139,145-146,149-155,157-161,165-167,170-171,182-204
+  s_579eb8fcce364a::t_b841f2c4663776 45,48-50,129-133,136-137,140,142-144,156,179-181
+  s_579eb8fcce364a::t_a55a870e0fd4bd 1,17-20,25-28,34-36,46-47,115-116,127-128,134-135,147-148,163-164,168-169,177-178,205
+  s_adfccd0b8a7b97::t_9626027e33ad4f 2-16,31,39-40,53-58,61-65,122-126,141,172-176
+  s_579eb8fcce364a::t_8fd6d87f7480f7 162
+web/public/aoc-style.css
+  s_adfccd0b8a7b97::t_def683fa56993e 1-497
+web/src/days/day1.tsx
+  s_888310cd963097::t_c1c10af9462fc5 1-28
+  s_888310cd963097::t_93fd1c69a9453c 29-31
+web/src/assets/typescript.svg
+  s_579eb8fcce364a::t_a55a870e0fd4bd 1
+web/vite.config.ts
+  s_579eb8fcce364a::t_58ab598e9d869c 1,3-5,7-17
+  s_579eb8fcce364a::t_8193a75a01a72a 2,6
+crate/Cargo.lock
+  s_579eb8fcce364a::t_d2e9537c47a887 1-114
+pnpm-lock.yaml
+  s_adfccd0b8a7b97::t_c0422216a7fc66 1-1058
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "be3563522164ff46d757f315c593e0dd72e58060",
+  "prompts": {},
+  "sessions": {
+    "s_579eb8fcce364a": {
+      "agent_id": {
+        "tool": "cursor",
+        "id": "e1f22f2c-13c2-4e7b-8452-1dfc40188717",
+        "model": "grok-4.6"
+      },
+      "human_author": "Kuba Jaroszewski <jakub.jaroszewski@gmail.com>"
+    },
+    "s_888310cd963097": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd4a6a8c2ffemL6Co6pGO2ecJO",
+        "model": "kimi-k2.5"
+      },
+      "human_author": "Kuba Jaroszewski <jakub.jaroszewski@gmail.com>"
+    },
+    "s_adfccd0b8a7b97": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_fd4ad7578ffehlEr3np93JyQg2",
+        "model": "kimi-k2.5"
+      },
+      "human_author": "Kuba Jaroszewski <jakub.jaroszewski@gmail.com>"
+    }
+  }
+}
