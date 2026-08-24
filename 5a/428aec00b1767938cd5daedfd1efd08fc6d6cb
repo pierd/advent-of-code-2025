@@ -1,0 +1,23 @@
+web/src/days/day4.tsx
+  h_373d6cc5be4f86 1-116
+web/src/days/utils.ts
+  h_373d6cc5be4f86 1-2
+web/src/days/day6.tsx
+  h_373d6cc5be4f86 1-17,19-60
+  h_373d6cc5be4f86 18
+web/src/days/day7.tsx
+  h_373d6cc5be4f86 1-78
+web/src/days/day5.tsx
+  h_373d6cc5be4f86 1-146
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "5a428aec00b1767938cd5daedfd1efd08fc6d6cb",
+  "prompts": {},
+  "humans": {
+    "h_373d6cc5be4f86": {
+      "author": "Kuba Jaroszewski <jakub.jaroszewski@gmail.com>"
+    }
+  }
+}
