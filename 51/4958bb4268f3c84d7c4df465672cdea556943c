@@ -1,0 +1,14 @@
+web/src/days/day3.tsx
+  h_373d6cc5be4f86 1-62
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.23",
+  "base_commit_sha": "514958bb4268f3c84d7c4df465672cdea556943c",
+  "prompts": {},
+  "humans": {
+    "h_373d6cc5be4f86": {
+      "author": "Kuba Jaroszewski <jakub.jaroszewski@gmail.com>"
+    }
+  }
+}
