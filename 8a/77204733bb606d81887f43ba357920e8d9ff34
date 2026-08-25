@@ -1,0 +1,19 @@
+crate/src/day08.rs
+  h_373d6cc5be4f86 1-147
+crate/src/lib.rs
+  h_373d6cc5be4f86 5,32-40,42-51
+  h_373d6cc5be4f86 41
+web/src/days/day8.tsx
+  h_373d6cc5be4f86 1-29
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "8a77204733bb606d81887f43ba357920e8d9ff34",
+  "prompts": {},
+  "humans": {
+    "h_373d6cc5be4f86": {
+      "author": "Kuba Jaroszewski <jakub.jaroszewski@gmail.com>"
+    }
+  }
+}
