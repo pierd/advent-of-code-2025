@@ -1,0 +1,27 @@
+web/src/days/utils.ts
+  h_373d6cc5be4f86 1-12,15-36
+web/src/days/day9.tsx
+  h_373d6cc5be4f86 1-41
+web/src/days/day8.tsx
+  h_373d6cc5be4f86 3,8,13
+  h_373d6cc5be4f86 5
+crate/src/lib.rs
+  h_373d6cc5be4f86 6,53-70
+  h_373d6cc5be4f86 71-72
+web/src/App.tsx
+  h_373d6cc5be4f86 45,49,51,56-58
+  h_373d6cc5be4f86 46,54-55,59
+crate/src/day09.rs
+  h_373d6cc5be4f86 1-43
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.24",
+  "base_commit_sha": "66c79edf8226cb77b3aba5492d73bebb1e9e306b",
+  "prompts": {},
+  "humans": {
+    "h_373d6cc5be4f86": {
+      "author": "Kuba Jaroszewski <jakub.jaroszewski@gmail.com>"
+    }
+  }
+}
