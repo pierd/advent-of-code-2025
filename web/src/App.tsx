@@ -42,16 +42,21 @@ function PartSection<Extra>({
           {title}
         </a>
       </h2>
-      <div className="viz" data-viz={title === "Part 1" ? "1" : "2"}>
-        {Viz && extra ? (
+      {Viz && <div className="viz" data-viz={title === "Part 1" ? "1" : "2"}>
+        {extra ? (
           <Viz day={day} input={input} answer={answer} extra={extra} />
         ) : (
-          <p className="viz-placeholder">Visualization</p>
+          <p className="viz-placeholder">Visualization...</p>
         )}
-      </div>
+      </div>}
       <p className="answer">
         Answer:{" "}
-        <code data-answer={title === "Part 1" ? "1" : "2"}>
+        <code
+          data-answer={title === "Part 1" ? "1" : "2"}
+          onClick={answer ? () => {
+            navigator.clipboard.writeText(answer);
+          } : undefined}
+        >
           {answer ?? "—"}
         </code>
       </p>
