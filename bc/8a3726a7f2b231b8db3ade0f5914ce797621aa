@@ -1,0 +1,21 @@
+crate/src/day09.rs
+  h_373d6cc5be4f86 1-9,13,18-154,156-164,189,191-697
+  h_373d6cc5be4f86 155,190
+web/src/days/day9.tsx
+  h_373d6cc5be4f86 7,18-20,23,31,35
+crate/src/lib.rs
+  h_373d6cc5be4f86 7,61-62,71-72
+crate/src/types.rs
+  h_373d6cc5be4f86 1-2
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.0",
+  "base_commit_sha": "bc8a3726a7f2b231b8db3ade0f5914ce797621aa",
+  "prompts": {},
+  "humans": {
+    "h_373d6cc5be4f86": {
+      "author": "Kuba Jaroszewski <jakub.jaroszewski@gmail.com>"
+    }
+  }
+}
