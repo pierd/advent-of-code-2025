@@ -4,6 +4,7 @@ use web_sys::console;
 mod day02;
 mod day08;
 mod day09;
+mod types;
 
 #[wasm_bindgen]
 pub fn solve_day2_part1(raw_ranges: JsValue) -> JsValue {
@@ -57,8 +58,8 @@ pub fn solve_day9_part1(raw_points: JsValue) -> JsValue {
         console::error_1(&"failed to parse input".into());
         panic!();
     };
-    let top_circuits_mul = day09::solve_part1(&points);
-    serde_wasm_bindgen::to_value(&top_circuits_mul).unwrap()
+    let top_area = day09::solve_part1(&points);
+    serde_wasm_bindgen::to_value(&top_area).unwrap()
 }
 
 #[wasm_bindgen]
@@ -67,6 +68,6 @@ pub fn solve_day9_part2(raw_points: JsValue) -> JsValue {
         console::error_1(&"failed to parse input".into());
         panic!();
     };
-    let top_circuits_mul = day09::solve_part2(&points);
-    serde_wasm_bindgen::to_value(&top_circuits_mul).unwrap()
+    let area_and_points = day09::solve_part2(&points);
+    serde_wasm_bindgen::to_value(&area_and_points).unwrap()
 }
